@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 6 - Desenvolvimento Web</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="login-card">
+            <h2>Login Profissional</h2>
+            <p class="subtitle">Acesso ao sistema do hospital</p>
+            
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="matricula">Matrícula</label>
+                    <input type="text" id="matricula" placeholder="Ex: 123456">
+                </div>
+
+                <div class="input-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Digite sua senha">
+                </div>
+
+                <div class="input-group">
+                    <label for="cargo">Cargo</label>
+                    <select id="cargo">
+                        <option value="">Selecione seu cargo</option>
+                        <option value="Médico">Médico</option>
+                        <option value="Enfermeiro(a)">Enfermeiro(a)</option>
+                        <option value="Farmacêutico(a)">Farmacêutico(a)</option>
+                        <option value="Psicólogo(a)">Psicólogo(a)</option>
+                    </select>
+                </div>
+
+                <button type="submit" id="btn_acessar">Acessar Sistema</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

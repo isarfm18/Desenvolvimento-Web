@@ -1,0 +1,64 @@
+
+body {
+    background-color: #171C30; 
+    color: #DCE0E1;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #205F81; 
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: #93A5AF; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2B3849; 
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid #5A6B73; 
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #205F81;
+}
+
+form {
+    background-color: #2B3849;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    background-color: #DCE0E1;
+    border: none;
+}
+
+button {
+    background-color: #205F81;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #93A5AF;
+}

@@ -1,106 +1,101 @@
-/* style.css */
 body {
-    background-color: #121212;
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 40px 0;
+  background-color: #121212;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px 0;
 }
-
-/* Customização do Grid Bootstrap para 18 colunas */
 .row-periodic {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-bottom: 6px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 6px;
+  justify-content: center;
 }
-
 .col-18 {
-    flex: 0 0 auto;
-    width: 5.55555556%; /* 100% dividido por 18 colunas */
-    padding: 2px;
+  flex: 0 0 auto;
+  width: 5.55555556%;
+  padding: 2px;
 }
-
-/* Estilização da Tecla (Keyboard Style) */
 .tecla {
-    width: 100%;
-    height: 75px;
-    border: none;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    box-shadow: 0 5px 0px #000;
-    transition: all 0.1s;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    user-select: none;
+  width: 100%;
+  height: 75px;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 5px 0px #000;
+  transition: all 0.1s;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  user-select: none;
 }
-
-/* Efeito de pressionar a tecla */
 .tecla:active {
-    box-shadow: 0 0px #000;
-    transform: translateY(5px);
+  box-shadow: 0 0px #000;
+  transform: translateY(5px);
 }
-
-/* Elementos Internos */
-.at-num { 
-    font-size: 0.6rem; 
-    position: absolute; 
-    top: 4px; 
-    left: 6px; 
-    font-weight: bold; 
-    opacity: 0.8; 
+.at-num {
+  font-size: 0.6rem;
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  font-weight: bold;
+  opacity: 0.8;
 }
-.sigla { font-size: 1.3rem; font-weight: 800; line-height: 1; }
-.nome { 
-    font-size: 0.45rem; 
-    text-transform: uppercase; 
-    font-weight: 600; 
-    text-align: center; 
-    width: 100%; 
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis; 
+.sigla {
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 1;
 }
-
-/* Classificações de Cores (Requisitos) */
-/* Cores para a Legenda e Tabela */
-.pode-lamber { background-color: #27ae60 !important; }
-.talvez-nao { background-color: #2980b9 !important; }
-.por-favor-nao { background-color: #d35400 !important; }
-.outra-vida { background-color: #8e44ad !important; }
-
-/* Ajuste opcional para as badges da legenda parecerem teclas menores */
+.nome {
+  font-size: 0.45rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pode-lamber {
+  background-color: #27ae60 !important;
+}
+.talvez-nao {
+  background-color: #2980b9 !important;
+}
+.por-favor-nao {
+  background-color: #d35400 !important;
+}
+.outra-vida {
+  background-color: #8e44ad !important;
+}
 .badge {
-    box-shadow: 0 2px 0px #000;
-    display: inline-block;
+  box-shadow: 0 2px 0px #000;
+  display: inline-block;
 }
-
-/* Espaçador Oculto */
-.vazio { visibility: hidden; }
-
-/* Legenda Estilizada */
+.vazio {
+  visibility: hidden;
+}
 .legenda-container {
-    margin-top: 50px;
-    background-color: #1e1e1e;
-    padding: 20px;
-    border-radius: 12px;
-    display: inline-block;
-    border: 1px solid #333;
+  margin-top: 50px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
+  border: 1px solid #333;
 }
 .legenda-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 8px;
-    font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
 }
 .cor-box {
-    width: 20px;
-    height: 20px;
-    border-radius: 4px;
-    box-shadow: 0 2px 0px #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 0px #000;
 }
